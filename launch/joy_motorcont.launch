@@ -1,0 +1,10 @@
+<launch>
+<!--
+
+       -->
+  <node name="joy"   pkg="joy" type="joy_node" />
+ 
+  <node name="motors"   pkg="pimouse_ros" type="motors.py" />
+
+  <node name="xbox" pkg="my_first" type="xbox4.py" output="screen"/>
+</launch>
